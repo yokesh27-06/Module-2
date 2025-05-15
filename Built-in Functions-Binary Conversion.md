@@ -10,20 +10,13 @@ To write a Python program to convert the number **16** into its **binary represe
 
 ## 🧾 Program
 ```
-num = int(input("Enter a number: "))
-original_num = num
-reversed_num = 0
-while num > 0:
-    digit = num % 10
-    reversed_num = reversed_num * 10 + digit
-    num = num // 10
-if original_num == reversed_num:
-    print(f"{original_num} is a palindrome.")
-else:
-    print(f"{original_num} is not a palindrome.")
+# Assign value to variable
+a = 16
+binary_a = bin(a)
+print("Binary of", a, "is:", binary_a)
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/a277afc1-bdf6-4ce2-b760-3f7861523d70)
+![image](https://github.com/user-attachments/assets/3b594381-ce87-4c9a-b580-986554d8eb5e)
 
 
 ## Result
